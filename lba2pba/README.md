@@ -48,7 +48,9 @@ message QGetPbaResponse{
 
 message UpdatePbaRequest{
   string Ip = 1;
-  repeated string FileList = 2;
+  repeated string Modi_List = 2;
+  repeated string Add_list = 3;
+  repeated string Del_list = 4;
 }
 
 message UpdatePbaResponse{
